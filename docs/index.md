@@ -10,7 +10,7 @@ hero:
       link: /games/
     - theme: alt
       text: View on GitHub
-      link: https://github.com/your-username/fun-games-collection
+      link: https://brewnut-98.github.io/SEOProject/
 features:
   - icon: 🎵
     title: Colorbox Mustard
