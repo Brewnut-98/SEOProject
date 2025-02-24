@@ -33,6 +33,18 @@ export default defineConfig({
     // Social links
     socialLinks: [
       { icon: 'github', link: 'https://github.com/your-username/fun-games-collection' }
-    ]
-  }
+    ],
+
+    // 添加主题相关配置
+    appearance: true, // 启用暗黑模式切换
+    lastUpdated: true, // 显示最后更新时间
+  },
+
+  // 添加 head 配置
+  head: [
+    ['link', { rel: 'icon', type: 'image/svg+xml', href: '/logo.svg' }],
+    ['meta', { name: 'theme-color', content: '#3eaf7c' }],
+    ['meta', { name: 'apple-mobile-web-app-capable', content: 'yes' }],
+    ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'black' }]
+  ]
 }) 

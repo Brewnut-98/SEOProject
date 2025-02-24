@@ -1,9 +1,18 @@
 .
 ├── docs
 │   ├── .vitepress
-│   │   └── config.ts
+│   │   ├── config.mts
+│   │   └── theme
+│   │       ├── index.mts
+│   │       └── style.css
+│   ├── public
+│   │   └── logo.svg        # 可选：添加网站logo
 │   ├── index.md
-│   └── guide
-│       └── getting-started.md
+│   └── games
+│       ├── index.md
+│       ├── block-blast.md
+│       ├── happy-glass.md
+│       └── colorbox-mustard.md
 ├── package.json
+├── package-lock.json
 └── .gitignore 
