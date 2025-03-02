@@ -26,6 +26,8 @@ export default defineConfig({
 
   // 添加 head 配置
   head: [
+    // Google Search Console 验证标签
+    ['meta', { name: 'google-site-verification', content: 'JLa_WdzdrZY4dPPWbFD6ZaEiUL4h5nL10qXvmoY9xH4' }],
     ['link', { rel: 'icon', type: 'image/svg+xml', href: '/logo.svg' }],
     ['meta', { name: 'theme-color', content: '#3eaf7c' }],
     ['meta', { name: 'apple-mobile-web-app-capable', content: 'yes' }],
