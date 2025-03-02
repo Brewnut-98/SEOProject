@@ -1,0 +1,58 @@
+baseURL = "https://brewnut-98.github.io/SEOProject/"
+languageCode = "en-us"
+title = "Fun Games Collection"
+theme = "PaperMod"
+
+# Enable Google Search Console verification
+[params]
+  description = "A Collection of Fun Online Games"
+  
+  # SEO
+  env = "production"
+  defaultTheme = "auto"
+  ShowReadingTime = false
+  ShowShareButtons = true
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+  disableSpecial1stPost = false
+  disableScrollToTop = false
+  comments = false
+  hidemeta = false
+  hideSummary = false
+  
+  # Custom header metadata
+  [params.assets]
+    favicon = "favicon.ico"
+    
+  # Home page settings
+  [params.homeInfoParams]
+    Title = "Fun Games Collection"
+    Content = "A curated collection of fun online games for everyone to enjoy."
+    
+  # Social icons
+  [[params.socialIcons]]
+    name = "github"
+    url = "https://github.com/brewnut-98/SEOProject"
+
+# Google Search Console verification
+[params.verification]
+  google = "JLa_WdzdrZY4dPPWbFD6ZaEiUL4h5nL10qXvmoY9xH4"
+
+# Menu items
+[menu]
+  [[menu.main]]
+    identifier = "home"
+    name = "Home"
+    url = "/"
+    weight = 10
+  [[menu.main]]
+    identifier = "games"
+    name = "Games"
+    url = "/games/"
+    weight = 20
+  [[menu.main]]
+    identifier = "github"
+    name = "GitHub"
+    url = "https://github.com/brewnut-98/SEOProject"
+    weight = 30 
