@@ -1,0 +1,32 @@
+/* Custom styles for links page */
+.links-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.links-list {
+  margin-top: 20px;
+}
+
+.links-list li {
+  margin-bottom: 10px;
+}
+
+.links-list a {
+  color: var(--primary);
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.links-list a:hover {
+  text-decoration: underline;
+  color: var(--secondary);
+}
+
+.last-updated {
+  font-size: 0.9rem;
+  color: var(--secondary);
+  font-style: italic;
+  margin-bottom: 30px;
+} 

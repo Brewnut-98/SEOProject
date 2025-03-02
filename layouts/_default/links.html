@@ -1,0 +1,55 @@
+{{- define "main" }}
+
+<article class="post-single">
+  <header class="post-header">
+    <h1 class="post-title">{{ .Title }}</h1>
+    <div class="post-description">{{ .Description }}</div>
+  </header>
+  
+  <div class="post-content">
+    <div class="links-container">
+      <p class="last-updated">Last updated: {{ now.Format "January 2, 2006" }}</p>
+      
+      <h2>Resources</h2>
+      <ul class="links-list">
+        <li>
+          <a href="https://climate.stripe.com/LVx4ff" target="_blank" rel="noopener noreferrer">
+            Climate Initiative
+          </a>
+        </li>
+        <li>
+          <a href="https://websitesbrewnuter.hashnode.space/default-guide/websites-recommended" target="_blank" rel="noopener noreferrer">
+            Tech Resources
+          </a>
+        </li>
+        <li>
+          <a href="https://brewnut.notion.site/Websites-recommended-197192a18652806da608d5fa86f553df" target="_blank" rel="noopener noreferrer">
+            Knowledge Base
+          </a>
+        </li>
+        <li>
+          <a href="https://bento.me/brewnut" target="_blank" rel="noopener noreferrer">
+            Digital Profile
+          </a>
+        </li>
+        <li>
+          <a href="https://linktr.ee/brewnut" target="_blank" rel="noopener noreferrer">
+            Social Hub
+          </a>
+        </li>
+        <li>
+          <a href="https://brewnut-98.github.io/SEOProject/" target="_blank" rel="noopener noreferrer">
+            SEO Research
+          </a>
+        </li>
+        <li>
+          <a href="https://cal.com/brewnut" target="_blank" rel="noopener noreferrer">
+            Book a Call
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</article>
+
+{{- end }} 
