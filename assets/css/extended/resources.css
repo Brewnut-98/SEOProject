@@ -1,0 +1,119 @@
+/* Tailwind-like styles for resources page */
+.max-w-4xl {
+  max-width: 56rem;
+}
+
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.px-4 {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.py-8 {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.bg-white {
+  background-color: #ffffff;
+}
+
+.dark .dark\:bg-gray-800 {
+  background-color: #1f2937;
+}
+
+.rounded-lg {
+  border-radius: 0.5rem;
+}
+
+.shadow-sm {
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+}
+
+.p-8 {
+  padding: 2rem;
+}
+
+.text-3xl {
+  font-size: 1.875rem;
+}
+
+.font-bold {
+  font-weight: 700;
+}
+
+.text-gray-900 {
+  color: #111827;
+}
+
+.dark .dark\:text-white {
+  color: #ffffff;
+}
+
+.mb-6 {
+  margin-bottom: 1.5rem;
+}
+
+.space-y-6 > * + * {
+  margin-top: 1.5rem;
+}
+
+.text-gray-600 {
+  color: #4b5563;
+}
+
+.dark .dark\:text-gray-300 {
+  color: #d1d5db;
+}
+
+.space-y-4 > * + * {
+  margin-top: 1rem;
+}
+
+.text-2xl {
+  font-size: 1.5rem;
+}
+
+.font-semibold {
+  font-weight: 600;
+}
+
+.list-disc {
+  list-style-type: disc;
+}
+
+.pl-6 {
+  padding-left: 1.5rem;
+}
+
+.space-y-2 > * + * {
+  margin-top: 0.5rem;
+}
+
+.text-blue-600 {
+  color: #2563eb;
+}
+
+.dark .dark\:text-blue-400 {
+  color: #60a5fa;
+}
+
+.hover\:underline:hover {
+  text-decoration: underline;
+}
+
+/* Add responsive padding */
+@media (min-width: 768px) {
+  .px-4 {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+  
+  .p-8 {
+    padding: 2.5rem;
+  }
+} 
